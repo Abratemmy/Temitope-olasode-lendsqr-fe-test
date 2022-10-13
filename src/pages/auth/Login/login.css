@@ -108,3 +108,10 @@
     color: var(--textColor);
     background: transparent;
 }
+
+@media screen and (max-width: 500px) {
+    .login-row-session{
+        display: flex;
+        flex-direction: column;
+    }
+}

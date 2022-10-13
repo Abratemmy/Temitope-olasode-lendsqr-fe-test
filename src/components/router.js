@@ -8,7 +8,7 @@ import Users from '../pages/users/users';
 
 const Router = ()=>(
     <Routes>
-        <Route exact path ='/' caseSensitive={false} element={<Auth/>} />
+        <Route exact path ='/Temitope-olasode-lendsqr-fe-test' caseSensitive={false} element={<Auth/>} />
         <Route exact path='/users' caseSensitive={false} element={<Users/>}/>
         <Route exact path='/users/:id'caseSensitive={false} element={<UserDetail/>} />
         <Route exact path='/no_page_yet' caseSensitive={false} element={<NoPages />} />  
