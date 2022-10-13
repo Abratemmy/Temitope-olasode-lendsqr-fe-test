@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1668b628a760c27b3dbb",
+    "revision": "f4a2599c5eebad1d696c",
     "url": "/Temitope-olasode-lendsqr-fe-test/static/css/main.8720a04d.chunk.css"
   },
   {
-    "revision": "1668b628a760c27b3dbb",
-    "url": "/Temitope-olasode-lendsqr-fe-test/static/js/main.1668b628.chunk.js"
+    "revision": "f4a2599c5eebad1d696c",
+    "url": "/Temitope-olasode-lendsqr-fe-test/static/js/main.f4a2599c.chunk.js"
   },
   {
     "revision": "c04e2171de7893cf95d6",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/Temitope-olasode-lendsqr-fe-test/static/media/pablo-sign-in.e8dad050.svg"
   },
   {
-    "revision": "bb71535f783e8caeedbfff3e89e6652f",
+    "revision": "6f462e396aa78613088f92f1b11c79d1",
     "url": "/Temitope-olasode-lendsqr-fe-test/index.html"
   }
 ];

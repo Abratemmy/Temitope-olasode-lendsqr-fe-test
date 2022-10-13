@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Temitope-olasode-lendsqr-fe-test/precache-manifest.7ee25f2ed977083b957d0d763f262868.js"
+  "/Temitope-olasode-lendsqr-fe-test/precache-manifest.59b7f559853051d65fec86ec8b227f23.js"
 );
 
 workbox.clientsClaim();
