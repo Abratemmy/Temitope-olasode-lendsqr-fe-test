@@ -1,0 +1,110 @@
+.loginPage{
+    padding: 2rem 3rem;
+    position: relative;
+}
+.login-row-session{
+    display: flex;
+    gap: 8rem;
+    padding: 70px 0px;
+}
+.login-row-image{
+    flex: 1 1;
+}
+.login-row-image img{
+    width: 600px;
+    height: 337.57px;
+}
+.login-container{
+    flex: 1 1;
+}
+.login-container .Welcome{
+    font-family: var(--fontFamily) ;
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--blueColor);
+    line-height: 50px;
+    letter-spacing: -0.04em;
+}
+.login-container .text{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #545F7D;
+    padding-bottom: 25px;
+}
+.login-form p{
+    color: rgba(240, 96, 96, 0.726);
+    font-size: 13px;
+    position: relative;
+    top:-5px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.form-input{
+    border:1px solid rgba(84, 95, 125, 0.15);
+    border-radius: 5px;
+    padding: 0px 10px;
+    width: 60%;
+    height: 45px;
+    font-size: 16px;
+    color: var(--textColor)
+}
+.form-input:focus{
+    outline: none;
+    border: 1px solid var(--greenColor)
+}
+.passwordshow{
+    position: relative;
+}
+.show-password{
+    position: relative;
+    left:-50px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: transparent;
+    color: var(--greenColor);
+    cursor: pointer;
+    font-weight: 600;
+    transition: var(--mainTransition);
+}
+.show-password:hover{
+    color: var(--blueColor)
+}
+.forgot-password{
+    text-transform: uppercase;
+    color: var(--greenColor);
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    cursor: pointer;
+    transition: var(--mainTransition)
+}
+.forgot-password:hover{
+    color: var(--blueColor)
+}
+.submit-btn{
+    width: 60%;
+    text-align: center;
+    background: var(--greenColor);
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    transition: var(--mainTransition);
+}
+.submit-btn:hover{
+    background: var(--blueColor);
+}
+.button-text{
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    color: var(--textColor);
+    background: transparent;
+}

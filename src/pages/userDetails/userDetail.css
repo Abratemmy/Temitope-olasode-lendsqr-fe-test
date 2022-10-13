@@ -1,0 +1,212 @@
+.details-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding:2rem;
+    font-family: 'Work Sans';
+    width: 90%;
+}
+.top-div{
+    cursor: pointer;
+}
+.top-div span{
+    padding-left: 15px;
+}
+.top-div .back{
+    background: none;
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 15px;
+    transition: var(--mainTransition);
+}
+.top-div:hover .back{
+    color: var(--greenColor)
+}
+.userdetails{
+    display: flex;
+    justify-content: space-between;
+}
+.userdetails .text{
+    color: var(--blueColor);
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.userdetails .btn>:nth-child(1){
+    color: #E4033B;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid#E4033B;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: var(--mainTransition);
+}
+.userdetails .btn>:nth-child(1):hover{
+    background: #E4033B;
+    color:#fff;
+}
+.userdetails .btn>:nth-child(2){
+    color: var(--greenColor);
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border: 1px solid var(--greenColor);
+    border-radius: 4px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: var(--mainTransition)
+}
+.userdetails .btn>:nth-child(2):hover{
+    background: var(--greenColor);
+    color:#fff;
+}
+.detailuser-profile{
+    background: #fff;
+    border-radius: 5px;
+}
+.detailuser-profile .top{
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+}
+.detail-avatar{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.detailname>:nth-child(1){
+    color: var(--blueColor);
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.detailname>:nth-child(2){
+    color: var(--textColor);
+    position: relative;
+    top:-15px;
+    font-size: 15px;
+}
+.user-tiers p{
+    color: var(--textColor);
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+.user-tiers img{
+    position: relative;
+    top:-5px;
+}
+.money>:nth-child(1){
+    color: var(--blueColor);
+    font-size: 23px;
+}
+.money>:nth-child(2){
+    color: var(--blueColor);
+    font-size: 14px;
+    position: relative;
+    top:-15px;
+}
+
+/* css for tabs here */
+.bloc-tabs {
+    display: flex;
+    gap: 5rem;
+    padding: 0 1rem 1rem 1rem;
+}
+.tabs {
+    background: var(--backgroundColor);
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    transition: 0.4s all ease;
+    color: var(--textColor);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.active-tabs  {
+    border-bottom: 1px solid var(--greenColor);
+    color:var(--greenColor);
+}
+/* .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: var(--mainBlue);
+} */
+.content-tab {
+    width: 100%;
+    display: none;
+}
+    
+.active-content-tab {
+    display: block;
+}
+.toggle-contents{
+    background: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.sub-topic{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--blueColor);
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.detail-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 0px; 
+    height: fit-content;
+    grid-gap:15px;
+}
+.detail-grid1{
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap:15px;
+}
+.detail-grid2{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+}
+.detail-grid3{
+    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 2fr));
+}
+.detail-grid4{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+}
+.grid-title{
+    color: var(--textColor);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.grid-content{
+    color: var(--textColor);
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.other-tabs-content{
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--textColor);
+}
+
+@media screen and (max-width: 500px) {
+    .details-container{
+        flex-direction: column;
+    }
+    .card{
+        text-align: center;
+    }
+}
